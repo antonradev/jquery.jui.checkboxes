@@ -4,8 +4,7 @@
     "description": "Creates accessible custom checkboxes from span HTML elements.",
     "keywords": [
         "checkboxes",
-        "check boxes",
-        "check box"
+        "checkbox"
     ],
     "version": "0.2.1",
     "author": {
