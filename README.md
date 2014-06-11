@@ -6,7 +6,7 @@ Creates accessible custom checkboxes
 Usage:
 
 HTML:
-<span class="jui-checkbox" tabindex="0"></span>
+&lt;span class="jui-checkbox" tabindex="0"&gt;&lt;/span&gt;
 
 Initialize the selector. JavaScript:
 $("#myCheckboxes").juicheckboxes();
