@@ -1,9 +1,11 @@
 {
     "name": "jui.checkboxes",
-    "title": "jQuery JUI Tabs",
-    "description": "Creates clickable tabbed content from a list and div elements",
+    "title": "jQuery JUI Checkboxes",
+    "description": "Creates accessible custom checkboxes from span HTML elements.",
     "keywords": [
-        "tabs"
+        "checkboxes",
+        "check boxes",
+        "check box"
     ],
     "version": "0.1.1",
     "author": {
