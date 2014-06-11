@@ -1,11 +1,11 @@
 {
-    "name": "JUI Tabs",
+    "name": "jui.checkboxes",
     "title": "jQuery JUI Tabs",
     "description": "Creates clickable tabbed content from a list and div elements",
     "keywords": [
         "tabs"
     ],
-    "version": "0.1",
+    "version": "0.1.0",
     "author": {
         "name": "Anton Radev",
         "email": "anton.radev@gmail.com",

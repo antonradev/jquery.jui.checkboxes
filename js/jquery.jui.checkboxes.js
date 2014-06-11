@@ -7,7 +7,7 @@
 *
 *$("#myCheckboxes").juicheckboxes();
 *
-* https://github.com/boblemarin/jQuery.eraser
+* https://github.com/antonradev/jQuery.jui.checkboxes
 * http://jui.uxpd.net/tabs.html
 *
 * Copyright (c) 2014 Anton Radev anton.radev@gmail.com http://www.antonradev.com
