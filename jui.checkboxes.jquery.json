@@ -7,7 +7,7 @@
         "check boxes",
         "check box"
     ],
-    "version": "0.1.2",
+    "version": "0.1.4",
     "author": {
         "name": "Anton Radev",
         "email": "anton.radev@gmail.com",
@@ -23,7 +23,7 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "MIT-LICENSE.txt"
+            "url": "LICENSE.txt"
         }
     ],
     "dependencies": {
