@@ -46,33 +46,25 @@
 
     $.fn.juicheckboxes = function() {
 
-
-        if (this.length) {
-
-            //Enables SPACE key checking
-            $(this).find('.jui-checkbox').keyup(function(e) {
-                if (e.keyCode === 32) {
-                    $(this).toggleClass('active');
-                }
-            });
-
-            //Checking the box with mouse clicks
-            $(this).find('.jui-checkbox').click(function() {
+        //Enables SPACE key checking
+        $(this).find('.jui-checkbox').keyup(function(e) {
+            if (e.keyCode === 32) {
                 $(this).toggleClass('active');
-            });
+            }
+        });
+
+        //Checking the box with mouse clicks
+        $(this).find('.jui-checkbox').click(function() {
+            $(this).toggleClass('active');
+        });
 
 
-            // Clicking on the label marks the box as checked
-            $(this).find('.jui-checkbox-row label').click(function() {
-                $(this).prev().toggleClass('active');
-            });
+        // Clicking on the label marks the box as checked
+        $(this).find('.jui-checkbox-row label').click(function() {
+            $(this).prev().toggleClass('active');
+        });
 
 
-        }
-        else {
-            console.log("There is no selector in the Markup code");
-            return;
-        }
     };
 
 
