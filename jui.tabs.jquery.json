@@ -1,0 +1,37 @@
+{
+    "name": "JUI Tabs",
+    "title": "jQuery JUI Tabs",
+    "description": "Creates clickable tabbed content from a list and div elements",
+    "keywords": [
+        "tabs"
+    ],
+    "version": "0.1",
+    "author": {
+        "name": "Anton Radev",
+        "email": "anton.radev@gmail.com",
+        "url": "https://github.com/antonradev"
+    },
+    "maintainers": [
+    {
+        "name": "Anton Radev",
+        "email": "anton.radev@gmail.com",
+        "url": "http://antonradev.com"
+    }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "MIT-LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">1"
+    },
+    "bugs": "https://github.com/antonradev/jquery.jui.checkboxes/issues",
+    "homepage": "http://jui.uxpd.net/checkboxes.html",
+    "docs": "https://github.com/antonradev/jquery.jui.checkboxes",
+    "download": "https://github.com/antonradev/jquery.jui.checkboxes",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

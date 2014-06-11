@@ -1,0 +1,23 @@
+.jui-checkboxes-container {
+    margin: 10px auto;
+    width: 700px;
+}
+.jui-checkboxes-container .jui-checkbox {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    overflow:auto;
+    background-color: #f0f0f0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.jui-checkboxes-container .jui-checkbox.active {
+    background-color: #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 2px 2px 9px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: inset 2px 2px 9px rgba(0, 0, 0, 0.11);
+    box-shadow: inset 2px 2px 9px rgba(0, 0, 0, 0.11);
+    background-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+klEQVQ4T2NkoBAwUqifgRwDmICWTgNiBSAOItUAkOZZQJwMdfkuUgwAaZ4NxElI3p5PrAEsQE3LgDgUSTPIGzkgAzihJj8B0hVYApUZKDYPiOOQ5BZBXfIXZMABILaHSnYD6TIkhSDN84E4FklsATQM/oHEQAaAnJKJpKAVyK4BYpDmhUAcjSQHMiwFiMGaYQaAAgfkJGSFE4F8aSAOQdIM8kYqsmaYASAaZMgSII5E0oDMnAzk5APxf3R55FhgB0puAmI3NEVzgPx0dJuRvYCsngvI2QzETlBBULxn4NKM7AV0Q1YBBR4CcQ42ZyMrJjYh4QgaSDRSBACuIyVzzcW2LwAAAABJRU5ErkJggg==');
+}

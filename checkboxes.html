@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery JUI Check boxes Plugin</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" media="all" href="css/main.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/jui.checkboxes.css">
+    </head>
+
+
+
+    <body>
+
+
+        <h2 class="jui-tabs-demo-heading">jQuery JUI CheckBoxes - Demo page</h2>
+
+
+        <div class="jui-checkboxes-container" id="checkboxesInit">
+            <h4>Checkboxes only without any labels</h4>
+            <span class="jui-checkbox active" tabindex="0"></span>
+            <span class="jui-checkbox" tabindex="0"></span>
+            <span class="jui-checkbox" tabindex="0"></span>
+        </div>
+
+        <div class="jui-checkboxes-container" id="checkboxesInit2">
+            <h4>Checkboxes with text labels</h4>
+            <div class="jui-checkbox-row">
+                <span class="jui-checkbox" tabindex="0"></span> <label>First checkable option</label>
+            </div>
+            <div class="jui-checkbox-row">
+                <span class="jui-checkbox" tabindex="0"></span> <label>Second checkable option</label>
+            </div>
+            <div class="jui-checkbox-row">
+                <span class="jui-checkbox" tabindex="0"></span> <label>Second checkable option</label>
+            </div>
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.jui.checkboxes.js"></script>
+        <script type="text/javascript">
+            // Initializing JUI Checkboxes plugin
+            $("#checkboxesInit").juicheckboxes();
+            $("#checkboxesInit2").juicheckboxes();
+        </script>
+    </body>
+</html>
