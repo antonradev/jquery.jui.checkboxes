@@ -10,3 +10,7 @@ HTML:
 
 Initialize the selector. JavaScript:
 $("#myCheckboxes").juicheckboxes();
+
+
+http://uxpd.net
+More projects: http://jui.uxpd.net/
